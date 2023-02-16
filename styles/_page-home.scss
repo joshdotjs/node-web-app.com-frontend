@@ -1,0 +1,19 @@
+#page.home {
+
+  
+  ul {
+    padding-left: 1rem;
+    li {
+      &.all::marker       { color: lightgreen;  }
+      &.user::marker { color: deepskyblue; }
+      &.admin::marker     { color: darkorange;  }
+
+      
+      &::marker {
+        content: '⇒ ';
+        font-family: fantasy;        
+      }
+    }
+  }
+
+}

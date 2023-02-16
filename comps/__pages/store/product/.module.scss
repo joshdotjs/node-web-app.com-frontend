@@ -1,0 +1,23 @@
+.product {
+
+  .radio_group {
+
+    border: solid black 1px;
+
+    display: flex;
+    gap: 0.5rem;
+
+    .radio {
+      border: dashed yellow 2px;
+      background: lightgreen;
+      padding: 0.25rem 0.5rem;
+      cursor: pointer;
+
+      &.active {
+        background: red;
+      }
+    }
+
+  }
+
+}

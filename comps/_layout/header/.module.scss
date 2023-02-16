@@ -1,0 +1,19 @@
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  background: darkorange;
+  padding: 0.5rem 1rem;
+
+  nav {
+    background: lightblue;
+  
+    li {
+      display: inline-block;
+      &:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+
+}

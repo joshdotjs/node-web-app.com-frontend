@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    // "*/.gitignore": true,
+    // "*/node_modules": true,
+    // "*/package-lock.json": true,
+    // "*/README.md": true,
+    // "*/readme.txt": true,
+    // ".next": true,
+    // "next.config.js": true,
+    // "postcss.config.js": true,
+    // "jsconfig.json": true,
+    // "readme.txt": true,
+    // "public": true,
+    // "tailwind.config.js": true,
+
+    // "*/.env.*": true,
+  }
+}

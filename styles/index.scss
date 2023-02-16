@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '_page-home';
+
+body {
+  background: black;
+  * { color: white; }
+  input { color: black; }
+
+  #page {
+    padding: 75px 5%;
+  }
+}
